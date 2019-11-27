@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="A page listing advanced features on the website through JavaScript" />
+	<meta name="keywords" content="TCP/IP" />
+	<meta name="author" content="James McKenna" />
+	<title>TCP/IP - Features</title>
+	<link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<div>
+		<ul class="nav" >
+			<li><a class="navItem" href= "index.php">Home</a></li>
+			<li><a class="navItem" href= "topic.php">Infomation</a></li>
+			<li><a class="navItem" href= "quiz.php">Quiz</a></li>
+			<li><a class="navItem" href= "enhancements.html">Features</a></li>
+			<li><a class="navItem" href= "enhancements2.html">JavaScript</a></li>
+		</ul>
+	</div>
+	
+	<header>
+		<h1>TCP/IP</h1>
+		<h3>Transmission Control and Internet Protocols</h3>
+	</header>
+	
+	<article>
+		<h2>Advanced Features</h2>
+		<p>Here’s a list of some of the extra features and content found throughout the website JavaScript</p>
+	</article>
+	
+	<article>
+		<h2>Accordian</h2>
+		<p>To reduce the clutter and length of the <a href="topic.html" >information page</a>, accordians were implemented to help section the page make it more digestable.
+		This was achieved by implementing JavaScript code from the W3 schools webpage, that looped through each button responding to a click command.
+		Using nextElementSibling, the webpage was able to retrieve the block and toggle the block on and off
+		In addtion to this, the headings on the page were replaced with buttons, and modeled with CSS to repicate the look of the headings</p>
+	</article>
+	
+	<article>
+		<h2>Scroll to top button</h2>
+		<p>When the user starts to scroll down the <a href="topic.html" >information page</a>, a button will appear in the bottom left conoer of the page and allow the used to scroll imediently to the top of the page.
+		So when pages, such as the information page, get lengthy, the quick scroll button allows the user get to the top, and would allow for pages to grow in the future.
+		The code was used from the W3 schools library of CSS and JavaScript, using fixed and z-index elements to keep its place and using body.scrollTop and document.scrollTop initiate the function.
+		body.scrollTop and document.scrollTop were used to make compatibility on Safari and Firefox/Chrome browsers.</p>
+	</article>
+		
+	<footer>
+		<p>Author: James McKenna</p>
+		<p>Send an email by clicking <a href="mailto:102097952@student.swin.edu.au">HERE</a></p>
+	</footer>
+	
+</body>
+</html>

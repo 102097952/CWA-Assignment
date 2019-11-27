@@ -1,0 +1,165 @@
+/*
+filename: styles.css
+author: James McKenna
+created: 27/03/2018
+last modified: 28/03/2018
+description: stylesheet for the 1st assignment
+*/
+
+
+/* CSS code for side menu bar from W3 Schools */
+.nav {	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+		position: fixed;
+		width: 12%;
+		background-color: rgb(0,170,255);
+		font: 150% sans-serif;
+		color: lightblue;
+		height: 95% ;
+}
+
+.navItem {	display: block;
+			text-align: center;
+			padding: 8px 16px;
+			text-decoration: none;
+}
+
+.navItem:hover { 	background-color: rgb(0,170,255);
+					color: lightblue;
+}
+
+
+/*global elements*/
+body { 	padding: 0px 25px;
+		background-color: lightblue;
+}
+
+article, form, footer { margin-left: 15%; 
+}
+
+header { 	text-align: center;
+			background-image: url(pictures/pattern.jpg);
+			font-family: sans-serif;
+			color: rgb(0,170,255);
+			margin-left: 15% ;
+}
+
+
+
+h2 {	text-align:center;
+		background-color: rgb(0,170,255);
+		color: lightblue;
+		font-family: sans-serif;
+}
+
+p { text-align: justify;
+	font-family: arial;
+}
+
+fieldset { 	border: 1px solid grey;
+			font-family: arial;
+}
+
+/*image*/
+aside { float: right;
+		font-family: arial;
+		text-align: center;
+}
+
+
+/*table elements*/
+table {	float: right; 
+				padding: 0px 0px 0px 20px;
+				font-family: arial;
+				text-align: center;
+}
+
+table {	padding: 0px 0px 0px 20px;
+		font-family: arial;
+		text-align: center;
+}
+
+td { 	background-color: rgb(0,200,255); 
+		border: 2px solid grey;
+		padding: 3px;
+}
+
+th { 	background-color: rgb(0,170,255); 
+		color: lightblue;
+		border: 2px solid grey;
+		padding: 3px;
+}
+
+
+/*styleing the footer*/
+footer p:first-child{ float: left;}
+footer p:nth-child(2){ float: right; text-align: right; }
+
+
+/*for the instructions on the quiz page */
+#instruct { text-align: center; 
+}
+
+/*for displaying results */
+#grade { 	text-align: center;
+}
+
+/*for button that scrolls to the top*/
+#topButton {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    left: 33px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(0,170,255); 
+    color: lightblue; 
+    cursor: pointer; 
+    padding: 15px; 
+    font-size: 18px; 
+}
+
+
+/*buttons for sumbiting and reseting the quiz*/
+.button {	text-decoration: none;
+			padding: 5px;
+			border: 1px solid rgb(0,170,255);
+			font: 150% sans-serif;
+			color: rgb(0,170,255);
+			background-color: lightblue;
+}
+
+
+/*For the headings on the Infomation page*/
+.subHeading {	font: bold 20px sans-serif;
+}
+
+
+/*bullet points for the infomation page */
+.info { 	font-family: arial;
+}
+
+.Heading {
+    text-align:center;
+	background-color: rgb(0,170,255);
+	color: lightblue;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
